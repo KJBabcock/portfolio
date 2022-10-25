@@ -7,7 +7,7 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who am I?</h1>
-            <p>Myname is Kyle Babcock and I am an Army Veteran who, after the pandemic, decided to switch career paths and learn Software Development! I was formerly trained in team building and innovation. Now I am ready to bring my skills together in order to work with amazing people and create works of art as a full stack developer! Feel free to contact me about any and all inquiries!</p>
+            <p>My name is Kyle Babcock and I am an Army Veteran who, after the pandemic, decided to switch career paths and learn Software Engineering! I was formerly trained in team building and innovation. Now I am ready to bring my skills together in order to work with amazing people and create works of art as a full stack developer! Feel free to contact me about any and all inquiries!</p>
             <Link to="/contact">
                 <button className="btn">Contact</button> 
             </Link>
