@@ -3,7 +3,6 @@ import React from "react";
 import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData"
 
-
 const Work = () => {
   return (
     <div className="work-container">

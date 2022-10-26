@@ -9,11 +9,11 @@ const HeroImg = () => {
             <img className="intro-img" src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/computer-programmer-coding-on-laptop.jpg?itok=w9ZFG1Hz" alt="IntroImg"/>
         </div>
         <div className="content">
-            <p>HI, I'M A DEVELOPER.</p>
-            <h1>React Developer</h1>
+            <p>Hello, I'M KYLE BABCOCK, REACT ENGINEER.</p>
+            <h1>Welcome To My Portfolio!</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <Link to="/contact" className="btn btn-light">Contact</Link>
+                <a href="https://docs.google.com/document/d/15cKvvnNsrfexAz8InSuR_Aq_x0PcsH0z2U5JtHnpILQ" className="btn btn-light">Resume</a>
             </div>
         </div>
     </div>
