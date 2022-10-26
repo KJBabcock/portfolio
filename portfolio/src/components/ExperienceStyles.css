@@ -1,0 +1,68 @@
+h2 {
+    color: #fff;
+    padding: 3%;
+}
+
+.title {
+    text-align: center;
+    margin: 1rem;
+    padding: 4%;
+}
+
+.language-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-img li {
+    display: grid;
+    margin: 2rem;
+}
+
+.language-img p {
+    padding-top: 1rem;
+}
+
+.backend-info {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.backend-info p {
+    display: inline-block;
+    padding: 1.8rem;
+    text-decoration: underline;
+}
+
+.exp-card1 {
+    border: 2px solid white;
+    border-radius: 1%;
+    text-align: center;
+}
+
+.exp-card1 h3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-card1 p {
+    padding: 2rem;
+}
+
+.space {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .language-img {
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    
+    .language-img li {
+        margin: 0.8rem;
+    }
+}
