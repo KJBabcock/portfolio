@@ -1,7 +1,7 @@
 import "./NavbarStyles.css"
 import { Link } from "react-router-dom"
 import React, {useState} from 'react'
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -26,6 +26,10 @@ const Navbar = () => {
       <Link to="/">
         <h1>Kyle J. Babcock</h1>
       </Link>
+      <div className="link-git">
+      <a href={"https://www.linkedin.com/in/kjbabcock/"}><FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
+      <a href={"https://github.com/KJBabcock"}><FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /></a>
+      </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
             <Link to="/">Home</Link>

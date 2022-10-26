@@ -31,6 +31,11 @@
     display: none;
 }
 
+.link-git {
+    position: absolute;
+    margin-left: 47.5%;
+}
+
 @media screen and (max-width: 1040px) {
 
     .nav-menu {
