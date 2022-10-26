@@ -35,9 +35,10 @@ h2 {
 }
 
 .exp-card1 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 1%;
     text-align: center;
+    background-color: #1a191900;
 }
 
 .exp-card1 h3 {
@@ -53,6 +54,7 @@ h2 {
 .space {
     text-align: center;
     padding: 1rem;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 800px) {

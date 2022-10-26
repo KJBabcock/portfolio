@@ -32,8 +32,9 @@
 }
 
 .link-git {
-    position: absolute;
-    margin-left: 47.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
 }
 
 @media screen and (max-width: 1040px) {
